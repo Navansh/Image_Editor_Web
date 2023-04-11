@@ -8,6 +8,7 @@
 }
 body{
   display: flex;
+  flex-direction: column;
   padding: 10px;
   min-height: 100vh;
   align-items: center;
@@ -178,4 +179,14 @@ body{
   .controls .row .save-img{
     margin-left: 0px;
   }
+}
+#canvas {
+  background: #232323;
+  z-index: -10;
+}
+#credits{
+  padding: 10px;
+  background-color: #5372F0;
+  border-radius: 10px;
+
 }
