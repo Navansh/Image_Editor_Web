@@ -60,7 +60,7 @@ function draw() {
       }
     }
   }
-  ctx.lineWidth = 0.05;
+  ctx.lineWidth = 0.30;
   ctx.strokeStyle = 'white';
   ctx.stroke();
 }

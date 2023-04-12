@@ -16,6 +16,7 @@ body{
   background: #E3F2FD;
 }
 .container{
+  z-index: 1;
   width: 850px;
   padding: 30px 35px 35px;
   background: #fff;
@@ -181,8 +182,9 @@ body{
   }
 }
 #canvas {
-  background: #232323;
+  background: #000000;
   z-index: -10;
+  position: absolute;
 }
 #credits{
   padding: 10px;
